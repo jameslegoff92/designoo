@@ -1,0 +1,55 @@
+<%- include('../partials/head.ejs') %>
+
+  <div class="l-page" >
+
+    <%- include('../partials/nav.ejs') %>
+
+    <form class="c-form u-br-all@md" action="/contact" method="POST">
+        <header class="c-form__header" >
+          <h1 class="c-h1 c-form__heading" >
+            Contact Us
+          </h1>
+          <p class="c-text c-form__text" >
+            Ready to take it to the next level? Let’s talk about your project or idea and find out how 
+            we can help your business grow. If you are looking for unique digital experiences that’s 
+            relatable to your users, drop us a line.
+          </p>
+        </header>
+        
+        <div>
+          <label for="name">
+            <input class="c-form__input" id="name" type="text" name="name" placeholder="Name" >
+          </label> 
+          
+          <br>
+          
+          <label for="email">
+            <input id="email" class="c-form__input" type="email" name="email" placeholder="Email Address" >
+          </label> 
+          
+          <br>
+          
+          <label for="phone">
+            <input class="c-form__input" id="phone" type="tel" name="phone_number" placeholder="Phone" >
+          </label>
+          
+          <br>
+          
+          <label for="textarea">
+            <textarea class="c-form__input" name="message" id="textarea" cols="30" rows="5" placeholder="Your Message" ></textarea>
+          </label>
+          
+          <button class="c-btn c-btn--white c-form__btn" type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <main class="l-page__main l-page__main--contact  l-main">
+      <div class="l-content-list">
+        <%- include('../partials/cities.ejs', { contact:contact }) %>
+      </div>
+    </main>
+  </div>
+
+  <%- include('../partials/footer.ejs') %>
+
+<%- include("../partials/end.ejs") %>

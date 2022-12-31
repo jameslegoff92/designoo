@@ -1,0 +1,228 @@
+@use "./../../variables" as *;
+
+.c-content {
+
+  &__img {
+    display: block;
+    width: 100%;
+    max-width: auto;
+
+    @media screen and (min-width: 768px) { 
+      border-radius: 15px 15px 0 0;
+    }
+
+    // @media screen and (min-width: 1439px) { 
+    //   border-radius: 0 15px 15px 0;
+    //   min-width: 29.75rem;
+    // }
+  }
+
+  &__img--br-top {
+    @media only screen and (min-width: 768px) {
+      border-radius: 15px 15px 0 0 ;
+    }
+  }
+
+  &__inner {
+    background: $primary-color-1;
+    padding: 5em 0 5em 0;
+
+    @media screen and (min-width: 768px) { 
+      border-radius: 0 0 15px 15px;
+      padding: 5.5rem 4.625rem 5.5rem 4.6875rem;
+    }
+
+    @media screen and (min-width: 1440px) { 
+      border-radius: 15px 0 0 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__inner--bg-light {
+    background: $secondary-color-4;
+  }
+
+  &__wrapper {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: calc(327 / 375) * 100%;
+  }
+
+  &__title {
+    margin: 0 0 0.75em 0;
+  }
+
+  &__text {
+
+  }
+
+  &__text--last {
+    margin: 2em 0 0 0;
+  }
+}
+
+.c-content--right\@2xl {
+  @media screen and (min-width: 1440px) { 
+    display: flex;
+  }
+
+  .c-content__img-wrapper {
+    order: 2;
+  }
+
+  .c-content__inner {
+    order: 1;
+  }
+}
+
+.c-content--left\@2xl {
+  @media screen and (min-width: 1440px) { 
+    display: flex;
+  }
+
+  // .c-content__img {
+  //   border-radius: 15px 0 0 15px;
+  // }
+
+
+
+  // .c-content__inner {
+  //   border-radius: 0 15px 15px 0;
+  // }
+}
+
+/***
+  Layout for content on the about page
+***/
+.c-content--about {
+
+  .c-content__img {
+    @media screen and (min-width: 1439px) { 
+      border-radius: 15px 0 0 15px;
+      min-width: 29.75rem;
+    }
+  }
+
+  .c-content__img--reverse {
+    @media screen and (min-width: 1439px) { 
+      border-radius: 0 15px 15px 0;
+    }
+  }
+
+  .c-content__inner {
+    @media screen and (min-width: 1439px) {
+      border-radius: 0 15px 15px 0;
+    }
+  }
+
+  .c-content__inner--reverse {
+    @media screen and (min-width: 1439px) {
+      border-radius: 15px 0 0 15px;
+    }
+  }
+}
+
+/***
+  Layout for the locations components
+***/
+.c-content--locations {
+
+  @media screen and (min-width:1440px) {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .c-content__img {
+    @media screen and (min-width: 768px) {
+      border-radius: 15px;
+      margin: 0 0 1.9375rem 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+      min-height: 326px;
+      min-width: 350px;
+      width: 350px;
+    }
+  }
+
+  .c-content__inner {
+    @media screen and (min-width: 768px) {
+      border-radius: 15px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      min-width: 730px;
+      max-height: 326px;
+    }
+  }
+
+  .c-content__wrapper {
+
+
+    @media only screen and (min-width: 768px) { 
+      margin: 0 auto;
+      text-align: left;
+      width: 100%;
+      max-width: 582px;
+
+    }
+
+    @media only screen and (min-width: 1440px) { 
+      margin: 0;
+      text-align: left;
+    }
+  }
+
+  .c-content__contact-wrapper {
+
+    @media only screen and (min-width: 768px) {
+      display:flex;
+      justify-content: space-between;
+    }
+  }
+
+
+  .c-content__contact {
+    @media screen and (min-width: 768px) { 
+      display: flex;
+      margin-right: 100px;
+    }
+  }
+}
+
+/***
+  Layout for the projects component 
+***/
+.c-content--projects {
+
+  @media screen and (min-width: 768px) and (max-width:1439px) { 
+    display: flex;
+  }
+
+  .c-content__img {
+    border-radius: 15px 15px 0 0;
+
+    @media screen and (min-width: 768px) and (max-width: 1439px) { 
+      border-radius: 15px 0 0 15px;
+      display: flex;
+      width: 50%;
+    }
+  }
+
+  .c-content__inner {
+    border-radius: 0 0 15px 15px;
+    padding: 2rem 0;
+
+    @media screen and (min-width: 768px) and (max-width:1439px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 0 15px 15px 0; 
+      width: 50%;
+      
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@use "../../variables" as *;
+
+.c-btn {
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  height: 3.5em;
+  padding: 17px 1.1875rem 17px 1.125rem;
+  text-transform: uppercase;
+  width: 9.5rem;
+  text-align: center;
+}
+
+.c-btn--white {
+  background: $primary-color-3;
+  color: $primary-color-2;
+}
+
+.c-btn--white:visited {
+  background: $primary-color-3;
+  color: $primary-color-2;
+}
+
+.c-btn--salmon {
+  background: $secondary-color-1;
+}
+
+.c-btn--salmon:visited {
+  background: $secondary-color-1;
+}
+
+.c-btn--dark-salmon {
+  background: $primary-color-1;
+  color: $primary-color-3;
+}
+
+.c-btn--dark-salmon:visited {
+  background: $primary-color-1;
+  color: $primary-color-3;
+}
+

@@ -1,0 +1,16 @@
+.c-icons {
+  text-align: center;
+
+  @media only screen and (min-width:768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon:not(:last-child) {
+    margin: 0 1em 0 0;
+
+    @media only screen and (min-width: 768px) {
+      margin: 0;
+    }
+  }
+}

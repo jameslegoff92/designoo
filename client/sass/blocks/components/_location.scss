@@ -1,0 +1,24 @@
+.c-location {
+  text-align: center;
+  padding: 0 0 3rem 0;
+
+  &__inner {
+    position: relative;
+    margin: 0 0 3rem 0;
+  }
+
+  &__bg {
+    transform: rotate(90deg);
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  &__heading {
+    margin-bottom: 32px; 
+  }
+}

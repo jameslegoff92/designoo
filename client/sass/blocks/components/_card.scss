@@ -1,0 +1,79 @@
+@use "../../variables" as *;
+
+.c-card {
+  border-radius: 15px;
+}
+
+.c-card--services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7481em;
+  padding: 5.625em 0 5.5625em 0;
+}
+
+.c-card--web-img {
+  background: url(/assets/home/mobile/image-web-design.jpg) no-repeat center center/cover;
+
+  @media only screen and (min-width: 768px) {
+      background: url(/assets/home/tablet/image-web-design.jpg) no-repeat center center/cover;
+  }
+
+  @media only screen and (min-width: 1440px) {
+      background: url(/assets/home/desktop/image-web-design-large.jpg) no-repeat center center/cover;
+  }
+}
+
+.c-card--app-img {
+  background: url(/assets/home/mobile/image-app-design.jpg) no-repeat 0 0/cover;
+
+  @media only screen and (min-width: 768px) {
+      background: url(/assets/home/tablet/image-app-design.jpg) no-repeat 0 0/cover;
+  }
+
+  @media only screen and (min-width: 1440px) {
+      background: url(/assets/home/desktop/image-app-design.jpg) no-repeat 0 0/cover;
+  }
+}
+
+.c-card--graphic-img {
+  background: url(/assets/home/mobile/image-graphic-design.jpg) no-repeat 0 0/cover;
+
+  @media only screen and (min-width: 768px) {
+      background: url(/assets/home/tablet/image-graphic-design.jpg) no-repeat 0 0/cover;
+  }
+
+  @media only screen and (min-width: 1440px) {
+      background: url(/assets/home/desktop/image-graphic-design.jpg) no-repeat 0 0/cover;
+  }
+}
+
+.c-card--cta {
+  background: $primary-color-1 url("/assets/shared/desktop/bg-pattern-call-to-action.svg") no-repeat right -8px bottom -120px;
+  padding: 4rem 1.4375rem;
+  text-align: center;
+
+  @media screen and (min-width: 1440px) {
+    padding: 4em 6em 4em 5.9375em;
+    display: flex;
+    align-items: center;
+    text-align: left; 
+    justify-content: space-between;
+  }
+
+  & .c-card__inner {
+    margin: 0 auto 2em auto;
+    width: calc(280 / 327) * 100%;
+    max-width: 425px;
+
+    @media screen and (min-width: 1440px) {
+      margin: 0;
+      
+    }
+  }
+
+  & .c-card__heading {
+    margin-bottom: 1.375rem;
+  }
+}

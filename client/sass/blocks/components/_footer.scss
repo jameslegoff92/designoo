@@ -1,0 +1,14 @@
+@use "../../variables" as *;
+
+.c-footer {
+  padding: 15.8125em 0 4em 0;
+  background: $primary-color-2;
+
+  @media only screen and (min-width: 768px) {
+    padding: 10.375em 0 5em 0;
+  }
+}
+
+.c-footer--contact {
+  padding: 4em 1.5em 
+}

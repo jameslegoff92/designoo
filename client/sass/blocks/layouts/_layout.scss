@@ -1,0 +1,12 @@
+//Section Layouts
+@use './page';
+@use './header';
+@use './main';
+@use './footer';
+
+//Layout for components
+@use './content-list';
+
+//Web Layouts
+@use './flex';
+@use './grid';

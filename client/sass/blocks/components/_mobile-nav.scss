@@ -1,0 +1,31 @@
+@use "../../variables" as *;
+
+
+.c-mobile-nav {
+  background: $primary-color-2;
+  height: 14.6875rem;
+  min-width: 375px;
+  padding: 3rem 1.5rem;
+  position: absolute;
+  z-index: 2;
+  top: 6rem;
+  left: 0;
+  right: 0;
+
+  &__item {
+    list-style: none;
+    margin-bottom: 1.5rem;
+  }
+
+  &__link {
+    color: $primary-color-3;
+    cursor: pointer;
+    font-size: $hs-300;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.04;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+

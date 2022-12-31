@@ -1,0 +1,133 @@
+.l-content-list {
+  &__item:not(:last-child) {
+    margin: 0 0 2.5rem 0;
+
+    @media screen and (min-width: 768px) {
+      margin: 0 0 1.5rem 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+      margin: 0 0 24px 0;
+    }
+  }
+
+  &__item--lg:not(:last-child) {
+    @media screen and (min-width: 768px) {
+      margin: 0 0 7.5rem 0;
+    }
+    @media screen and (min-width: 1440px) {
+      margin: 0;
+    }
+  }
+}
+
+/***
+  Layout for the links that navigate to the services offered by the company.
+***/
+.l-content-list--services {
+
+  .l-content-list__item:not(:last-child) {
+    margin: 0 0 1.5rem 0;
+
+    @media only screen and (min-width: 1440px) {
+      margin: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    display: grid;
+    margin-right: -165px;
+    grid-template-columns: repeat(12, 65px);
+    grid-template-rows: repeat(2, 308px);
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+  }
+
+  .l-content-list__item-1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .l-content-list__item-2 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+  }
+
+  .l-content-list__item-3 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+  }
+}
+
+
+/***
+  Layout for the company's values
+***/
+.l-content-list--values {
+
+  @media only screen and (min-width:1439px) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .l-content-list__item:not(:last-child) {
+    margin: 0 0 5rem 0;
+  }
+
+  .l-content-list__item {
+    
+    @media only screen and (min-width:1440px) {
+      max-width: 21.875rem;
+    }
+  }
+}
+
+
+.l-content-list--md {
+  .l-content-list__item:not(:last-child) {
+    margin: 0 0 1.5rem 0;
+
+    @media only screen and (min-width: 1440px) {
+      margin: 0;
+    }
+  }
+}
+
+.l-content-list--lg {
+  .l-content-list__item:not(:last-child) {
+    margin: 0 0 5rem 0;
+  }
+}
+
+/***
+  Layout for the cities component
+***/
+.l-content-list--cities {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/***
+  Layout for the Project-list components
+***/
+.l-content-list--projects {
+
+  @media screen and (min-width: 1439px) { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.0625rem 2rem;
+    width: 1110px;
+  }
+
+  .l-content-list__item:not(:last-child) {
+    margin: 0 0 32px 0;
+
+    @media  only screen and (min-width: 1440px) {
+      margin: 0;
+    }
+  }
+}

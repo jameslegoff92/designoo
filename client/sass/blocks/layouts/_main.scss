@@ -1,0 +1,15 @@
+.l-main {
+
+  &__item:not(:last-child) {
+    margin: 0 0 7.5rem 0;
+  }
+
+  &__item-1 {
+    margin: 0 0 6rem 0;
+  }
+}
+
+
+.l-main--designs {
+  padding: 6rem 0 17.875rem 0;
+}

@@ -1,0 +1,60 @@
+.u-hidden {
+  display: none;
+}
+
+.u-hidden\@sm {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.u-hidden\@md {
+  @media only screen and (min-width: 767px) {
+    display: none;
+  }
+}
+
+.u-overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.u-mb-xs {
+  margin-bottom: 40px;
+}
+
+//mb = margin on the bottom
+.u-mb-xxl {
+  margin-bottom: 310px;
+}
+
+//my = margin on the y axis
+.u-my-lg {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+//border-bottom: solid 1px grey;
+.u-border-b {
+  @media screen and (min-width: 768px) {
+    border-bottom: solid 1px grey;
+  }
+}
+
+//max width
+.u-max-w\@2xl {
+  margin: 0 auto;
+  max-width: 1110px
+}
+
+//border-radius 
+.u-br-btm\@md {
+  @media only screen and (min-width:768px) {
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+.u-br-all\@md {
+  @media only screen and (min-width:768px) {
+    border-radius: 15px;
+  }
+}

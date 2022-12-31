@@ -1,0 +1,17 @@
+@use "sass:math";
+
+/***
+  * This function calculates the needed rem value needed for a specific font-size for a given viewport width.
+  * This function is useful if you want to have fluid typography but you need the font-size to start at a specific value on a certain screen size.
+  * @param $fontSize [Is the target font-size used without any units, e.g. 32, without the px units]
+  * @param $vw [Is the viewport width value you are planning on using without the unit. e.g 2, without the vw unit]
+  * @param $screenSize [Is the screen size used to calculate the value for the viewport width.]
+  * @return The return value should be the rem unit needed for the targeted font-size.
+***/
+@function getRem($fontSize, $vw, $screenSize ) {
+  $vwValue: $vw / 100;
+  $screenSize: $screenSize;
+  $remValue: (($fontSize - ($vwValue * $screenSize)) / 16) * 1rem;
+
+  @return $remValue;
+}

@@ -1,0 +1,90 @@
+<%- include('../partials/head.ejs') %>
+
+  <div class="l-page">
+
+    <%- include('../partials/nav.ejs') %>
+
+      <header class="l-page__header l-page__header--homepage c-hero-container">
+        <section class="c-hero-container__inner">
+          <h1 class="c-hero-container__heading c-h1"> Award-winning custom designs and digital branding solutions </h1>
+          <p class="c-hero-container__text c-text c-text--header">
+            With over 10 years in the industry, we are experienced in creating fully responsive websites, app design,
+            and engaging brand experiences. Find out more about our services.
+          </p>
+          <a href="/about" class="c-btn c-btn--white"> Learn More </a>
+        </section>
+      </header>
+
+      <main class="l-page__main l-main">
+        <div class="l-main__item l-content-list l-content-list--services">
+          <section class="l-content-list__item l-content-list__item-1 c-card c-card--services c-card--web-img">
+            <h2 class="c-h2"> Web Design </h2>
+            <a class="c-link c-link--arrow" href="services/web-design"> View Projects </a>
+          </section>
+
+          <section class="l-content-list__item l-content-list__item-2 c-card c-card--services c-card--app-img l-grid-item-2">
+            <h2 class="c-h2"> App Design </h2>
+            <a class="c-link c-link--arrow" href="services/app-design"> View Projects </a>
+          </section>
+
+          <section class="l-content-list__item l-content-list__item-3 c-card c-card--services c-card--graphic-img l-grid-item-3">
+            <h2 class="c-h2"> Graphic Design </h2>
+            <a class="c-link c-link--arrow" href="services/graphic-design"> View Projects </a>
+          </section>
+        </div>
+
+        <div class="l-main__item l-content-list l-content-list--values">
+          <div class="l-content-list__item c-skills">
+            <div class="">
+              <img class="c-skills__bg" src="/assets/shared/desktop/bg-pattern-small-circle.svg" alt="">
+              <img class="c-skills__img" src="/assets/home/desktop/illustration-passionate.svg" alt="">
+            </div>
+            <section class="c-skills__inner">
+              <h3 class="c-skills__heading c-h3"> Passionate </h3>
+              <p class="c-text-secondary">
+                Each project starts with an in-depth brand research to ensure we only create products that serve a
+                purpose.
+                We merge
+                art, design, and technology into exciting new solutions.
+              </p>
+            </section>
+          </div>
+
+          <div class="l-content-list__item c-skills">
+            <div>
+              <img class="c-skills__bg c-skills__bg--rotate270" src="/assets/shared/desktop/bg-pattern-small-circle.svg"
+                alt="">
+              <img class="c-skills__img" src="/assets/home/desktop/illustration-resourceful.svg" alt="">
+            </div>
+            <section class="c-skills__inner">
+              <h3 class="c-skills__heading c-h3"> Resourceful </h3>
+              <p class="c-text-secondary">
+                Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value
+                customer
+                collaboration. It guarantees superior results that fulfill our clients’ needs.
+              </p>
+            </section>
+          </div>
+
+          <div class="l-content-list__item c-skills">
+            <div>
+              <img class="c-skills__bg c-skills__bg--rotate45" src="/assets/shared/desktop/bg-pattern-small-circle.svg"
+                alt="">
+              <img class="c-skills__img" src="/assets/home/desktop/illustration-friendly.svg" alt="">
+            </div>
+            <section class="c-skills__inner">
+              <h3 class="c-skills__heading c-h3"> Friendly </h3>
+              <p class="c-text-secondary">
+                We are a group of enthusiastic folks who know how to put people first. Our success depends on our
+                customers,
+                and we
+                strive to give them the best experience a company can provide.
+              </p>
+            </section>
+          </div>
+        </div>
+      </main>
+  </div>
+  <%- include('../partials/footer.ejs', { contact:contact }) %>
+
+<%- include("../partials/end.ejs") %>

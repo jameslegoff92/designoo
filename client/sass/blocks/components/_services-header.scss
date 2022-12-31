@@ -1,0 +1,20 @@
+@use "../../variables" as *;
+
+.c-services-header {
+  background: $primary-color-1;
+  padding: 105px 0;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    border-radius: 15px;
+  }
+
+  .c-services-header__inner {
+    margin: 0 auto;
+    width: calc(327 / 375 * 100%)
+  }
+
+  .c-services-header__heading {
+    padding: 0 0 24px;
+  }
+}

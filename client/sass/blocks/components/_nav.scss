@@ -1,0 +1,40 @@
+@use "../../variables" as *;
+
+.c-nav {
+  list-style: none;
+
+  @media only screen and (min-width: 768px ) {
+    display: flex;
+    justify-content: space-between;
+    width: 23.125rem;   
+  }
+
+  &__link {
+    color: $secondary-color-2; 
+    font-size: 0.875rem;
+    line-height: 1;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+  }
+
+  &__link:hover { 
+    border-bottom: 1px solid grey;
+  }
+}
+
+.c-nav--footer {
+  text-align: center;
+  padding: 2em 0 2.5em 0;
+
+ .c-nav__item:not(:last-child) {
+    margin: 0 0 2em 0;
+
+    @media only screen and (min-width:768px) {
+      margin: 0;
+    }
+ }
+
+ & .c-nav__link {
+  color: $primary-color-3;
+ }
+}

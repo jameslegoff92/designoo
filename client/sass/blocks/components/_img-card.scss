@@ -1,0 +1,28 @@
+@use "../../variables" as *;
+
+.c-img-card {
+  text-align: center;
+
+  &__img {
+    display: block;
+    min-height: 320px;
+  }
+
+  &__inner {
+    background-color: $primary-color-1;
+    padding: 5rem 0;
+  }
+
+  &__inner--secondary {
+    background-color: $secondary-color-4;
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    width: calc(327/375 * (100%));
+  }
+
+  &__heading {
+    padding-bottom: 1.5rem;
+  }
+}

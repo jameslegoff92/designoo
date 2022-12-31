@@ -1,0 +1,12 @@
+@use "../../variables" as *;
+
+.c-link {
+  color: $primary-color-3;
+  font-size: $ts-400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.c-link--arrow::after {
+  content: url("/assets/shared/desktop/icon-right-arrow.svg")
+}
