@@ -1,3 +1,7 @@
+import { navAnimation } from "./modules/gsap.js";
+navAnimation();
+
+
 const openNavIcon = document.querySelector("#open-nav-icon");
 const closeNavIcon = document.querySelector("#close-nav-icon");
 const nav = document.querySelector("#navigation");
@@ -24,3 +28,4 @@ function closeNavigation() {
   backdrop.classList.add("u-hidden");
   body.classList.remove("u-overflow-y-hidden");
 }
+
