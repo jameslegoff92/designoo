@@ -17,16 +17,12 @@
   color: $primary-color-2;
 }
 
-.c-btn--white:visited {
-  background: $primary-color-3;
-  color: $primary-color-2;
+.c-btn:hover {
+  background-color: $secondary-color-1;
+  color: $primary-color-3;
 }
 
 .c-btn--salmon {
-  background: $secondary-color-1;
-}
-
-.c-btn--salmon:visited {
   background: $secondary-color-1;
 }
 
@@ -34,9 +30,3 @@
   background: $primary-color-1;
   color: $primary-color-3;
 }
-
-.c-btn--dark-salmon:visited {
-  background: $primary-color-1;
-  color: $primary-color-3;
-}
-

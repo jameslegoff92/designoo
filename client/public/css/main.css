@@ -225,25 +225,16 @@ hr {
   color: rgb(29, 28, 30);
 }
 
-.c-btn--white:visited {
-  background: rgb(255, 255, 255);
-  color: rgb(29, 28, 30);
+.c-btn:hover {
+  background-color: rgb(255, 173, 155);
+  color: rgb(255, 255, 255);
 }
 
 .c-btn--salmon {
   background: rgb(255, 173, 155);
 }
 
-.c-btn--salmon:visited {
-  background: rgb(255, 173, 155);
-}
-
 .c-btn--dark-salmon {
-  background: rgb(231, 129, 107);
-  color: rgb(255, 255, 255);
-}
-
-.c-btn--dark-salmon:visited {
   background: rgb(231, 129, 107);
   color: rgb(255, 255, 255);
 }
