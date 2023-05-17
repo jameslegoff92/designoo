@@ -55,15 +55,20 @@
     outline: transparent;
   }
 
+  &__btn-wrapper {
+    text-align: center;
+
+    @media screen and (min-width: 768px) { 
+      text-align: right;
+    }
+  }
+
   &__btn {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     margin-top: 40px;
 
     @media screen and (min-width: 768px) { 
-      left: 100%;
-      transform: translateX(-100%);
+
     }
   }
 }

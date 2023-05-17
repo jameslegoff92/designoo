@@ -42,12 +42,6 @@ img {
   max-width: 100%;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 hr {
   color: #979797;
   height: 1px;
@@ -209,6 +203,9 @@ hr {
 }
 
 .c-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
   border-radius: 8px;
   display: inline-block;
   font-size: 0.9375rem;
@@ -223,11 +220,13 @@ hr {
 .c-btn--white {
   background: rgb(255, 255, 255);
   color: rgb(29, 28, 30);
+  transition: 0.5s;
 }
 
-.c-btn:hover {
+.c-btn--white:hover {
   background-color: rgb(255, 173, 155);
   color: rgb(255, 255, 255);
+  transform: scale(1.1);
 }
 
 .c-btn--salmon {
@@ -237,6 +236,12 @@ hr {
 .c-btn--dark-salmon {
   background: rgb(231, 129, 107);
   color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.c-btn--dark-salmon:hover {
+  background-color: rgb(255, 173, 155);
+  transform: scale(1.1);
 }
 
 .c-logo {
@@ -646,19 +651,18 @@ hr {
 .c-form__input:focus {
   outline: transparent;
 }
-.c-form__btn {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 40px;
+.c-form__btn-wrapper {
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .c-form__btn {
-    left: 100%;
-    transform: translateX(-100%);
+  .c-form__btn-wrapper {
+    text-align: right;
   }
 }
-
+.c-form__btn {
+  position: relative;
+  margin-top: 40px;
+}
 .c-icons {
   text-align: center;
 }

@@ -1,4 +1,4 @@
-import { navAnimation } from "./modules/gsap.js";
+import { navAnimation } from "./modules/animations/gsap.js";
 navAnimation();
 
 
