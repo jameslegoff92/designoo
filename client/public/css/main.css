@@ -450,6 +450,11 @@ hr {
   text-transform: uppercase;
 }
 
+.mobile-menu-btn {
+  background: none;
+  border: none;
+}
+
 .c-backdrop {
   background-color: rgba(29, 28, 30, 0.5);
   position: fixed;
@@ -636,6 +641,11 @@ hr {
 .c-form__heading {
   padding-bottom: 24px;
 }
+@media screen and (min-width: 1440px) {
+  .c-form__inputs {
+    width: 45%;
+  }
+}
 .c-form__input {
   background: transparent;
   border: none;
@@ -643,6 +653,7 @@ hr {
   color: rgb(255, 255, 255);
   padding: 25px 0 11px 13.77px;
   width: 100%;
+  resize: none;
 }
 .c-form__input::placeholder {
   color: rgb(255, 255, 255);

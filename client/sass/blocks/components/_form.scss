@@ -37,6 +37,12 @@
     padding-bottom: 24px;
   }
 
+  &__inputs {
+    @media screen and (min-width: 1440px) {
+      width: 45%;
+    }
+  }
+
   &__input {
     background: transparent;
     border: none;
@@ -44,6 +50,7 @@
     color: $primary-color-3;
     padding: 25px 0 11px 13.77px;
     width: 100%;
+    resize: none;
   }
 
   &__input::placeholder {
