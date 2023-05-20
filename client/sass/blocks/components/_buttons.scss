@@ -1,6 +1,7 @@
 @use "../../variables" as *;
 
 .c-btn {
+  border: none;
   cursor: pointer;
   border-radius: 8px;
   display: inline-block;

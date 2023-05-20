@@ -1,0 +1,19 @@
+@keyframes slideUp {
+  from {
+    background-position: center 50em;
+  }
+
+  to {
+    background-position: center 18.75em;
+  }
+}
+
+@keyframes heroImageDesktop {
+  from {
+    background-position: 1000px -30px, 475px; 
+  }
+
+  to {
+    background-position: 550px -30px, 475px; 
+  }
+}

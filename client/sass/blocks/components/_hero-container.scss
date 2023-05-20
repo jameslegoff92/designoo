@@ -1,8 +1,10 @@
 @use "../../variables" as *;
 @use "../../functions" as *;
+@use "../../animations" as *;
 
 .c-hero-container {
   background: $primary-color-1 url("/assets/home/desktop/image-hero-phone.png") no-repeat center 18.75em;
+  animation: slideUp 1.5s ease;
   padding: 5rem 0 28.1875rem 0;
   text-align: center;
 
@@ -14,6 +16,7 @@
     background: 
       url("/assets/home/desktop/image-hero-phone.png") no-repeat 550px -30px,
       url("/assets/home/desktop/bg-pattern-hero-home.svg") no-repeat 475px, $primary-color-1;
+    animation: heroImageDesktop 1.5s ease;
     padding: 9.0625em 5.9375em;
     text-align: left;
   }
