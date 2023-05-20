@@ -1,5 +1,6 @@
-import { navAnimation } from "./modules/animations/gsap.js";
+import { navAnimation, heroAnimation } from "./modules/animations/gsap.js";
 navAnimation();
+heroAnimation();
 
 
 const openNavIcon = document.querySelector("#open-nav-icon");
