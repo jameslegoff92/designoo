@@ -723,29 +723,29 @@ hr {
   width: 100%;
   max-width: auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .c-content__img {
-    border-radius: 15px 15px 0 0;
+    border-radius: 0.9375rem 0.9375rem 0 0;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .c-content__img--br-top {
-    border-radius: 15px 15px 0 0;
+    border-radius: 0.9375rem 0.9375rem 0 0;
   }
 }
 .c-content__inner {
   background: rgb(231, 129, 107);
-  padding: 5em 0 5em 0;
+  padding: 5rem 0 5rem 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .c-content__inner {
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 0.9375rem 0.9375rem;
     padding: 5.5rem 4.625rem 5.5rem 4.6875rem;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content__inner {
-    border-radius: 15px 0 0 15px;
+    border-radius: 0.9375rem 0 0 0.9375rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -760,13 +760,13 @@ hr {
   width: 87.2%;
 }
 .c-content__title {
-  margin: 0 0 0.75em 0;
+  margin: 0 0 0.75rem 0;
 }
 .c-content__text--last {
-  margin: 2em 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content--right\@2xl {
     display: flex;
   }
@@ -778,7 +778,7 @@ hr {
   order: 1;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content--left\@2xl {
     display: flex;
   }
@@ -787,116 +787,119 @@ hr {
 /***
   Layout for content on the about page
 ***/
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 89.9375rem) {
   .c-content--about .c-content__img {
-    border-radius: 15px 0 0 15px;
+    border-radius: 0.9375rem 0 0 0.9375rem;
     min-width: 29.75rem;
   }
 }
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 89.9375rem) {
   .c-content--about .c-content__img--reverse {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 0.9375rem 0.9375rem 0;
   }
 }
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 89.9375rem) {
   .c-content--about .c-content__inner {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 0.9375rem 0.9375rem 0;
   }
 }
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 89.9375rem) {
   .c-content--about .c-content__inner--reverse {
-    border-radius: 15px 0 0 15px;
+    border-radius: 0.9375rem 0 0 0.9375rem;
   }
 }
 
 /***
   Layout for the locations components
 ***/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content--locations {
     display: flex;
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 768px) {
+.c-content--locations .c-content__img {
+  min-height: 20rem;
+}
+@media screen and (min-width: 48rem) {
   .c-content--locations .c-content__img {
-    border-radius: 15px;
+    min-height: 20.375rem;
+    border-radius: 0.9375rem;
     margin: 0 0 1.9375rem 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content--locations .c-content__img {
-    min-height: 326px;
-    min-width: 350px;
-    width: 350px;
+    min-width: 21.875rem;
+    width: 21.875rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .c-content--locations .c-content__inner {
-    border-radius: 15px;
+    border-radius: 0.9375rem;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .c-content--locations .c-content__inner {
-    min-width: 730px;
-    max-height: 326px;
+    min-width: 45.625rem;
+    max-height: 20.375rem;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .c-content--locations .c-content__wrapper {
     margin: 0 auto;
     text-align: left;
     width: 100%;
-    max-width: 582px;
+    max-width: 36.375rem;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 90rem) {
   .c-content--locations .c-content__wrapper {
     margin: 0;
     text-align: left;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .c-content--locations .c-content__contact-wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .c-content--locations .c-content__contact {
     display: flex;
-    margin-right: 100px;
+    margin-right: 6.25rem;
   }
 }
 
 /***
   Layout for the projects component 
 ***/
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 48rem) and (max-width: 89.9375rem) {
   .c-content--projects {
     display: flex;
   }
 }
 .c-content--projects .c-content__img {
-  border-radius: 15px 15px 0 0;
+  border-radius: 0.9375rem 0.9375rem 0 0;
 }
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 48rem) and (max-width: 89.9375rem) {
   .c-content--projects .c-content__img {
-    border-radius: 15px 0 0 15px;
+    border-radius: 0.9375rem 0 0 0.9375rem;
     display: flex;
     width: 50%;
   }
 }
 .c-content--projects .c-content__inner {
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 0.9375rem 0.9375rem;
   padding: 2rem 0;
 }
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 48rem) and (max-width: 89.9375rem) {
   .c-content--projects .c-content__inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 0.9375rem 0.9375rem 0;
     width: 50%;
   }
 }
@@ -1031,22 +1034,22 @@ hr {
 .l-content-list__item:not(:last-child) {
   margin: 0 0 2.5rem 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768rem) {
   .l-content-list__item:not(:last-child) {
     margin: 0 0 1.5rem 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440rem) {
   .l-content-list__item:not(:last-child) {
-    margin: 0 0 24px 0;
+    margin: 0 0 24rem 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768rem) {
   .l-content-list__item--lg:not(:last-child) {
     margin: 0 0 7.5rem 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440rem) {
   .l-content-list__item--lg:not(:last-child) {
     margin: 0;
   }
@@ -1058,19 +1061,19 @@ hr {
 .l-content-list--services .l-content-list__item:not(:last-child) {
   margin: 0 0 1.5rem 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440rem) {
   .l-content-list--services .l-content-list__item:not(:last-child) {
     margin: 0;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440rem) {
   .l-content-list--services {
     display: grid;
-    margin-right: -165px;
-    grid-template-columns: repeat(12, 65px);
-    grid-template-rows: repeat(2, 308px);
-    grid-column-gap: 30px;
-    grid-row-gap: 24px;
+    margin-right: -165rem;
+    grid-template-columns: repeat(12, 65rem);
+    grid-template-rows: repeat(2, 308rem);
+    grid-column-gap: 30rem;
+    grid-row-gap: 24rem;
   }
 }
 .l-content-list--services .l-content-list__item-1 {
@@ -1091,7 +1094,7 @@ hr {
 /***
   Layout for the company's values
 ***/
-@media only screen and (min-width: 1439px) {
+@media only screen and (min-width: 1439rem) {
   .l-content-list--values {
     display: flex;
     justify-content: space-around;
@@ -1100,7 +1103,7 @@ hr {
 .l-content-list--values .l-content-list__item:not(:last-child) {
   margin: 0 0 5rem 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440rem) {
   .l-content-list--values .l-content-list__item {
     max-width: 21.875rem;
   }
@@ -1109,7 +1112,7 @@ hr {
 .l-content-list--md .l-content-list__item:not(:last-child) {
   margin: 0 0 1.5rem 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440rem) {
   .l-content-list--md .l-content-list__item:not(:last-child) {
     margin: 0;
   }
@@ -1122,7 +1125,7 @@ hr {
 /***
   Layout for the cities component
 ***/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440rem) {
   .l-content-list--cities {
     display: flex;
     justify-content: space-around;
@@ -1132,18 +1135,18 @@ hr {
 /***
   Layout for the Project-list components
 ***/
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1439rem) {
   .l-content-list--projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4.0625rem 2rem;
-    width: 1110px;
+    width: 1110rem;
   }
 }
 .l-content-list--projects .l-content-list__item:not(:last-child) {
-  margin: 0 0 32px 0;
+  margin: 0 0 32rem 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440rem) {
   .l-content-list--projects .l-content-list__item:not(:last-child) {
     margin: 0;
   }

@@ -12,8 +12,8 @@
 - Semantic HTML5 markup
 - Mobile-first workflow
 - Adaptive Design
-- CSS
-- Sass
+- CSS/SASS
+- GSAP
 - BEM Methodology
 - JS
 - NodeJS
@@ -22,21 +22,23 @@
 - Mongoose
 - MongoDB
 - MVC Pattern
-- Eslint
+- Eslint/Prettier
 
 
-## Objective of this Project
+## Features
 
-- The goal of this project was to create a multi-page digital marketing website for a start-up organization. The site should be responsive, pixel-perfect to the designs given, should work on all modern browsers, and should register interested clients who send them an inquiry into their database while sending them a confirmation email.
+- Cross Browser Compatible 
+- 100% Responsive
+- Animations
+
+
+## Features To Be Added
+- Employee Admin UI to track customers, and to perform administrative tasks.
+- Automated Testing
 
 
 ## What I learned
 
-  - To keep my CSS as DRY and clean as possible.
-  - To become more familiar with aspects of backend development.
-  - To use a template engine to speed up my development process.
-  - To use a database to save users so the company could build a mailing list.
-  - To implement responsive web design.
 
 ## Author
 

@@ -2,20 +2,20 @@
   &__item:not(:last-child) {
     margin: 0 0 2.5rem 0;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768rem) {
       margin: 0 0 1.5rem 0;
     }
 
-    @media screen and (min-width: 1440px) {
-      margin: 0 0 24px 0;
+    @media screen and (min-width: 1440rem) {
+      margin: 0 0 24rem 0;
     }
   }
 
   &__item--lg:not(:last-child) {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768rem) {
       margin: 0 0 7.5rem 0;
     }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1440rem) {
       margin: 0;
     }
   }
@@ -29,18 +29,18 @@
   .l-content-list__item:not(:last-child) {
     margin: 0 0 1.5rem 0;
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1440rem) {
       margin: 0;
     }
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1440rem) {
     display: grid;
-    margin-right: -165px;
-    grid-template-columns: repeat(12, 65px);
-    grid-template-rows: repeat(2, 308px);
-    grid-column-gap: 30px;
-    grid-row-gap: 24px;
+    margin-right: -165rem;
+    grid-template-columns: repeat(12, 65rem);
+    grid-template-rows: repeat(2, 308rem);
+    grid-column-gap: 30rem;
+    grid-row-gap: 24rem;
   }
 
   .l-content-list__item-1 {
@@ -67,7 +67,7 @@
 ***/
 .l-content-list--values {
 
-  @media only screen and (min-width:1439px) {
+  @media only screen and (min-width:1439rem) {
     display: flex;
     justify-content: space-around;
   }
@@ -78,7 +78,7 @@
 
   .l-content-list__item {
     
-    @media only screen and (min-width:1440px) {
+    @media only screen and (min-width:1440rem) {
       max-width: 21.875rem;
     }
   }
@@ -89,7 +89,7 @@
   .l-content-list__item:not(:last-child) {
     margin: 0 0 1.5rem 0;
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1440rem) {
       margin: 0;
     }
   }
@@ -105,7 +105,7 @@
   Layout for the cities component
 ***/
 .l-content-list--cities {
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440rem) {
     display: flex;
     justify-content: space-around;
   }
@@ -116,17 +116,17 @@
 ***/
 .l-content-list--projects {
 
-  @media screen and (min-width: 1439px) { 
+  @media screen and (min-width: 1439rem) { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4.0625rem 2rem;
-    width: 1110px;
+    width: 1110rem;
   }
 
   .l-content-list__item:not(:last-child) {
-    margin: 0 0 32px 0;
+    margin: 0 0 32rem 0;
 
-    @media  only screen and (min-width: 1440px) {
+    @media  only screen and (min-width: 1440rem) {
       margin: 0;
     }
   }
