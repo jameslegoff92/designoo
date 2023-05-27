@@ -1,10 +1,10 @@
 #  Designo | A Digital Marketing Company
 
 ## Table of contents
-[Built with](#built-with)
-[Objectives](#objectives)
-[Upcoming Features](#Upcoming Features)
-[Author](#author)
+[Built with](#built-with)   
+[Objectives](#objectives)  
+[Upcoming Features](#Upcoming Features)  
+[Author](#author)  
 
 ## Built with
 Semantic HTML5 markup  
