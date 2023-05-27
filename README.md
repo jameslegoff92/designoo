@@ -7,16 +7,16 @@
 [Author](#author)
 
 ## Built with
-Semantic HTML5 markup
-Mobile-first workflow
-Adaptive Design
-CSS/SASS
-GSAP
-BEM Methodology
-JS
-NodeJS
-Nodemon
-EJS
+Semantic HTML5 markup  
+Mobile-first workflow  
+Adaptive Design  
+CSS/SASS  
+GSAP  
+BEM Methodology  
+JS  
+NodeJS  
+Nodemon  
+EJS  
 Mongoose
 MongoDB
 MVC Pattern
