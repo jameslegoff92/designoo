@@ -2,7 +2,7 @@
 
 ## Table of contents
 [Built with](#built-with)   
-[Objectives](#objectives)  
+[Features](#objectives)  
 [Upcoming Features](#Upcoming-Features)  
 [Author](#author)  
 
