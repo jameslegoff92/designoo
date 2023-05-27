@@ -14,26 +14,26 @@ CSS/SASS
 GSAP  
 BEM Methodology  
 JS  
-NodeJS  
-Nodemon  
-EJS  
-Mongoose
-MongoDB
-MVC Pattern
-Eslint/Prettier
+NodeJS    
+Nodemon    
+EJS    
+Mongoose  
+MongoDB  
+MVC Pattern  
+Eslint/Prettier  
 
 ## Features
-Cross Browser Compatible 
-100% Responsive
-Animations
+Cross Browser Compatible   
+100% Responsive  
+Animations  
 
 ## Upcoming Features
-Employee Admin UI to track customers, and to perform administrative tasks.
-Automated Testing.
-Client/User email responses & templates.
+Employee Admin UI to track customers, and to perform administrative tasks.  
+Automated Testing.  
+Client/User email responses & templates.  
 
 ## Author
 
-Frontend Mentor - https://www.frontendmentor.io/profile/jameslegoff92
-Twitter - https://twitter.com/jameslegoff
-Medium - https://medium.com/@jameslegoff92
+Frontend Mentor - https://www.frontendmentor.io/profile/jameslegoff92  
+Twitter - https://twitter.com/jameslegoff  
+Medium - https://medium.com/@jameslegoff92  
