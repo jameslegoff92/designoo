@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'CustomFont';
     src: url('/fonts/Jost-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
   }
 /****
 
@@ -47,7 +48,7 @@ $hs-900: 3rem; //48px
 /*** Line Heights ***/
 $lh-400: 1;
 
-
+   
 /*** Media Breakpoints ***/
 $breakpoints: (
   sm: 576px,

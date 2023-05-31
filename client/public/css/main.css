@@ -1,6 +1,7 @@
 @font-face {
   font-family: "CustomFont";
   src: url("/fonts/Jost-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
 }
 /****
 
