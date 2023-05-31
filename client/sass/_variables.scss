@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+@font-face {
+  font-family: 'CustomFont';
+    src: url('/fonts/Jost-VariableFont_wght.ttf') format('truetype');
+  }
 /****
 
   Table of Contents
@@ -21,7 +24,7 @@ $secondary-color-3: rgba(241, 243, 245, 1);
 $secondary-color-4: rgba(253, 243, 240, 1); //#FDF3F0
 
 /*** Font Family ***/
-$font-family: 'Jost', sans-serif; 
+$font-family: 'CustomFont', sans-serif; 
 
 /*** Text Sizes ***/
 $ts-300: 0.875rem; //14px

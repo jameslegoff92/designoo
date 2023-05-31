@@ -31,6 +31,7 @@ const port = process.env.PORT || 3000;
 const staticFolderPath = path.join(__dirname, "../client/public");
 const viewsFolderPath = path.join(__dirname, "/views");
 
+
 app.use(express.static(staticFolderPath));
 app.set("view engine", "ejs");
 app.set("views", viewsFolderPath);

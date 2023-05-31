@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap");
+@font-face {
+  font-family: "CustomFont";
+  src: url("/fonts/Jost-VariableFont_wght.ttf") format("truetype");
+}
 /****
 
   Table of Contents
@@ -25,7 +28,7 @@ html {
   font-size: 1rem;
 }
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "CustomFont", sans-serif;
   margin: 0;
   min-height: 100vh;
   min-width: 375px;
@@ -176,7 +179,7 @@ hr {
 }
 
 .c-h3--secondary {
-  color: rgb(231, 129, 107);
+  color: rgb(231, 129, 107) !important;
 }
 
 .c-text {
@@ -760,7 +763,7 @@ hr {
   width: 87.2%;
 }
 .c-content__title {
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 2rem 0;
 }
 .c-content__text--last {
   margin: 2rem 0 0 0;
